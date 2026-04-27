@@ -4,7 +4,11 @@
 Renders a turntable animation of an asset in Maya and uploads it to Flow Production Tracking
 -> a fast and streamlined method for sending assets for internal review.
 
-A video demonstration: *To Be Added*
+A video demonstration: [*Maya Turntable to Flow*](https://vimeo.com/1187099193?fl=ip&fe=ec)
+
+![](/documentation_images/instructions.png)
+![](/documentation_images/instructions2.png)
+
 
 ## Features
 - Exports selected objects to a new scene and fits them into view
@@ -17,7 +21,7 @@ A video demonstration: *To Be Added*
 ## Requirements
 - **Autodesk Maya** (tested on 2026)
 - **Arnold**
-- Python packages: **shotgun-api3**, **Pyside6**
+- Python packages: [**shotgun-api3**](https://github.com/shotgunsoftware/python-api) ([installed on mayapy](https://help.autodesk.com/view/MAYAUL/2022/ENU/?guid=GUID-72A245EC-CDB4-46AB-BEE0-4BBBF9791627)), **Pyside6**
 - **FFmpeg** installed and in PATH
 
 ## Instalation
@@ -25,7 +29,7 @@ A video demonstration: *To Be Added*
 
 2) Fill out id_config.py with your Flow credentials
 
-3) Paste this code into Maya's Python console and create a shelf tool:
+3) Paste the following code into Maya's Python console and create a shelf tool:
 
 ```
 import importlib
